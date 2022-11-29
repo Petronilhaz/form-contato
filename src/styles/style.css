@@ -75,7 +75,7 @@
 .form-container .submit {
     display: block;
     padding: 10px;
-    margin: auto;
+    text-align: center;
     background-color: var(--green);
     border: none;
     border-radius: 5px;
