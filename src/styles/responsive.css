@@ -1,6 +1,7 @@
 @media (max-width: 768px){
     .flex-container {
         flex-direction: column;
+        height: 100%;
     }
 
     .text-content {
@@ -22,6 +23,7 @@
 
     .form-container {
         width: 80%;
+        padding-bottom: 5%;
     }
 
     .form input {
@@ -33,12 +35,8 @@
         height: 80px;
         font-size: 1.5rem;
     }
-}
 
-@media(max-width: 320px) {
     .footer {
-        font-size: 1rem;
-        position: relative;
-        background-color: gainsboro;
+        display: none;
     }
 }
