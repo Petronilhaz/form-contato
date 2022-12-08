@@ -8,8 +8,7 @@ document.getElementById("form")
     })
 
 document.getElementById("submit")
-    .addEventListener('click', (e) => {
-        e.preventDefault()
+    .addEventListener('click', () => {
         getInputs()
         validate(inputs)
     })
